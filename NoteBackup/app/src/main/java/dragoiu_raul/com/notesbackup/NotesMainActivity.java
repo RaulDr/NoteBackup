@@ -30,7 +30,7 @@ public class NotesMainActivity extends AppCompatActivity {
         fab.setOnClickListener(view -> {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show();
-            Toast.makeText(NotesMainActivity.this, "Sugi pula", Toast.LENGTH_SHORT).show();
+            Toast.makeText(NotesMainActivity.this, "Please, save a note!", Toast.LENGTH_SHORT).show();
             startActivity(intent);
         });
         NoteDbHelper dbHelper = new NoteDbHelper(this);
@@ -63,12 +63,8 @@ public class NotesMainActivity extends AppCompatActivity {
         //noinspection SimplifiableIfStatement
         switch (id) {
             case (R.id.action_settings):
-                Toast.makeText(NotesMainActivity.this, "Sugi pula", Toast.LENGTH_SHORT).show();
+                Toast.makeText(NotesMainActivity.this, "Here are setings!", Toast.LENGTH_SHORT).show();
                 break;
-            case (R.id.action_roulikpuzulik):
-                Toast.makeText(NotesMainActivity.this, "putzulik", Toast.LENGTH_SHORT).show();
-
-
         }
 
         return super.onOptionsItemSelected(item);

@@ -1,7 +1,8 @@
 # NoteBackup
 
 This is a basic android note saver app. It can save notes on your phone, and even more, it will save them on
-a remote server. It offers a backup for your notes. The server side is write in spring framework.
+a remote server. It offers a backup for your notes. The server side is write in spring framework and the db 
+runs on a docker container and is created by jpa. The android side db is created by sqlite.
 
 ## Tools 
 
