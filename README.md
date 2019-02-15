@@ -13,7 +13,7 @@ runs on a docker container and is created by jpa. The android side db is created
 
 ## Commands for server db docker container:
 
-docker run --name notebackupdb -p 5432:32770 -d postgres
+docker run --name notebackupdb -p 32770:5432 -d postgres
 
 docker container update --restart=always notebackupdb
 
