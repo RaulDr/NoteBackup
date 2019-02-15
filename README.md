@@ -21,7 +21,17 @@ docker exec -it notebackupdb psql --username postgres -c "CREATE DATABASE noteba
 
 docker exec -it notebackupdb psql --username postgres -c "GRANT ALL PRIVILEGES ON DATABASE notebackup TO postgres;"
 
-## Some screenshot:
+# Application components Diagrams
+
+## The component diagram of application contains Frontend component, Backend Component, Database component and Rasbery PI component and comunication between them:
+
+![DATABASE](https://github.com/RaulDr/NoteBackup/blob/master/res_images/ApplicationComponentDiagram.JPG)
+
+## Use case diagram:
+
+![CMD Run](https://github.com/RaulDr/AccessGatewayManagerQRApp/blob/develop/Pics/https://github.com/RaulDr/NoteBackup/blob/master/res_images/UscaseDiagram.JPG)
+
+## Some screenshot:ApplicationComponentDiagram.JPG
 ### Database
 ![DATABASE](https://github.com/RaulDr/NoteBackup/blob/master/res_images/2018-12-31_15h13_13.png)
 
