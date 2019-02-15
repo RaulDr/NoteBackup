@@ -29,7 +29,7 @@ docker exec -it notebackupdb psql --username postgres -c "GRANT ALL PRIVILEGES O
 
 ## Use case diagram:
 
-![CMD Run](https://github.com/RaulDr/AccessGatewayManagerQRApp/blob/develop/Pics/https://github.com/RaulDr/NoteBackup/blob/master/res_images/UscaseDiagram.JPG)
+![DATABASE](https://github.com/RaulDr/NoteBackup/blob/master/res_images/UscaseDiagram.JPG)
 
 ## Some screenshot:ApplicationComponentDiagram.JPG
 ### Database
